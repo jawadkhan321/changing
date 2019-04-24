@@ -1,0 +1,88 @@
+.main
+{
+    border:3px solid brown;
+    width: 300px;
+    height: 400px;
+    float: left;
+    font-size: 55px;
+    font-family: Tahoma, Haettenschweiler,"Agency FB";
+    margin-left: 35%;
+    margin-top: 100px;
+    box-shadow: 10px 8px 15px saddlebrown;
+
+}
+.\.div
+{   background-color: goldenrod;
+
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.vid
+{
+    background-color: white;
+
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+div
+{
+    text-align: center;
+}
+.top
+{
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+/*
+. hash
+
+{
+    border-left: 3px solid brown;
+    border-bottom: 3px solid brown;
+}
+.zero
+{
+    border-bottom: 3px solid brown;
+}
+ */
+.star
+{
+   margin-top: 27px;
+}
+.top:hover
+{
+    background-color: gold;
+    border-radius: 50%;
+    width: 60px;
+    height:70px;
+    cursor: pointer;
+}
+.star:hover
+{
+    background-color: gold;
+    border-radius: 50%;
+    width: 40px;
+    height:50px;
+    user-focus:none;
+
+}
+.\.div:active
+{
+    background-color: saddlebrown;
+    cursor: grab;
+}
+.vid:active
+{
+    background-color: saddlebrown;
+    cursor: grab;
+}
+.\.div:link
+{
+    background-color: red;
+}
